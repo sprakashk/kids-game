@@ -1,0 +1,16 @@
+.controls-container {
+    padding: 2vmin;
+    button {
+        width: 20vmin;
+        height: 20vmin;
+        font-size: 40px;
+        display: flex;   
+        justify-content: center;
+        align-items: center;
+    }
+    .row1 {
+        width: 100%;
+        display: flex;   
+        justify-content: center;
+    }
+}

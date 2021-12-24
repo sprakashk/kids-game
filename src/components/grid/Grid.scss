@@ -1,0 +1,16 @@
+.grid-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    height: 96vmin;
+    width: 96vmin;    
+    padding: 2vmin;
+    .grid-item {
+        height: 32vmin;
+        width: 32vmin;
+        box-sizing: border-box;
+        border: 1px solid #008000;
+        background-color: #ffff00;
+    }
+}
